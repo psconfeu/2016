@@ -1,6 +1,6 @@
 # Session slides and demo scripts from PowerShell Conference EU, 2016
 
-**Note to Speakers**: Please add a folder with your name and put your session content inside that. Also, update the following table with the links to slides and demo scripts. So, you need to first commit the slides and scripts and then update the readme.
+**Note to Speakers**: Please add a folder with your name and put your session content inside that. Also, update the following table with the links to slides and demo scripts. So, you need to first commit the slides and scripts and then update the readme. Please add links to the raw content so that click on the slides or demo scripts results in a download.
 
 | Session Title  | Speaker | Slides | Demo Scripts |
 | ------------- | ------------- | ------------- | ------------- |
