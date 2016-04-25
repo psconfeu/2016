@@ -11,3 +11,5 @@
 | Professional Help for PowerShell Modules | June Blender | [Slides](https://github.com/psconfeu/2016/blob/master/June%20Blender/WritingHelpForPowerShellModules/ProfessionalHelpModules.pptx) | [More at PowerShell Help Deep Dive](https://github.com/juneb/PowerShellHelpDeepDive)|
 | QA - Will it break? | Simon Wahlin | [Slides](https://github.com/psconfeu/2016/raw/master/Simon%20Wahlin/QA-Will%20It%20Break/QA-Will%20it%20beak.pptx) | [Demo Scripts](https://github.com/psconfeu/2016/raw/master/Simon%20Wahlin/QA-Will%20It%20Break/QA-WillItBreak.zip) |
 | Get-Contributing | Simon Wahlin | [Slides](https://github.com/psconfeu/2016/raw/master/Simon%20Wahlin/Get-Contributing/Get-Contributing.pptx) |  |
+| PowerShell and KeePass | Christian Lehrer | [Slides](https://github.com/psconfeu/2016/blob/master/Christian%20Lehrer/PowerShell%2BKeePass/Slides-KeePass%2BPowerShell.zip) | [Demo Scripts](https://github.com/psconfeu/2016/blob/master/Christian%20Lehrer/PowerShell%2BKeePass/Scripts-KeePass%2BPowerShell.zip)  |
+| 802.1x and PowerShell | Christian Lehrer | [Slides](https://github.com/psconfeu/2016/blob/master/Christian%20Lehrer/802.1X/SystemCenterPowerShellandNAC.pptx)|  |
