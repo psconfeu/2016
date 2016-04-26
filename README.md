@@ -13,3 +13,6 @@
 | Get-Contributing | Simon Wahlin | [Slides](https://github.com/psconfeu/2016/raw/master/Simon%20Wahlin/Get-Contributing/Get-Contributing.pptx) |  |
 | PowerShell and KeePass | Christian Lehrer | [Slides](https://github.com/psconfeu/2016/blob/master/Christian%20Lehrer/PowerShell%2BKeePass/Slides-KeePass%2BPowerShell.zip) | [Demo Scripts](https://github.com/psconfeu/2016/blob/master/Christian%20Lehrer/PowerShell%2BKeePass/Scripts-KeePass%2BPowerShell.zip)  |
 | 802.1x and PowerShell | Christian Lehrer | [Slides](https://github.com/psconfeu/2016/blob/master/Christian%20Lehrer/802.1X/SystemCenterPowerShellandNAC.pptx)|  |
+| A practical example of how to approach (and deliver) a large and complex script project | Øyvind Kallstad | ? | ?
+| Chasing the seconds: Optimizing file enumeration by diving deep into the Windows API | Øyvind Kallstad | ? | ?
+| Regular Expressions and PowerShell | Øyvind Kallstad | ? | ?
