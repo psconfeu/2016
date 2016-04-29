@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PowerShellMetadata xmlns="http://schemas.microsoft.com/cmdlets-over-objects/2009/11">
+  <Class ClassName="root\cimv2/Win32_Service">
+    <Version>1.0</Version>
+    <DefaultNoun>CIMService</DefaultNoun>
+
+    <InstanceCmdlets>
+    <!-- Global parameters - used on all cmdlets except get 
+         Also make it mandatory
+         Need to repeat property on Get cmdlet
+    -->
+      <GetCmdletParameters DefaultCmdletParameterSet="ByName">
+        <QueryableProperties>
+          <Property PropertyName="Name">
+            <Type PSType ="String"/>
+            <RegularQuery AllowGlobbing="true"> 
+              <CmdletParameterMetadata PSName="Name" IsMandatory="true" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName">
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+        </QueryableProperties>
+      </GetCmdletParameters>
+      
+      <GetCmdlet>
+       <CmdletMetadata Verb="Get" />
+        <GetCmdletParameters DefaultCmdletParameterSet="ByName">
+        <QueryableProperties>
+
+          <Property PropertyName="Name">
+            <Type PSType ="String"/>
+            <RegularQuery AllowGlobbing="true"> 
+              <CmdletParameterMetadata PSName="Name"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName">
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="DisplayName">
+            <Type PSType ="String"/>
+            <RegularQuery AllowGlobbing="true"> 
+              <CmdletParameterMetadata PSName="DisplayName"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByDName">
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="State">
+            <Type PSType ="String"/>
+            <RegularQuery AllowGlobbing="true"> 
+              <CmdletParameterMetadata PSName="State"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByState">
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+                <ValidateSet>
+                  <AllowedValue>Running</AllowedValue>
+                  <AllowedValue>Stopped</AllowedValue>
+                  <AllowedValue>Paused</AllowedValue>
+                  <AllowedValue>Unknown</AllowedValue>
+                  <AllowedValue>Start Pending</AllowedValue>
+                  <AllowedValue>Stop Pending</AllowedValue>
+                  <AllowedValue>Continue Pending</AllowedValue>
+                  <AllowedValue>Pause Pending</AllowedValue>
+                </ValidateSet>
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="StartMode">
+            <Type PSType ="String"/>
+            <RegularQuery AllowGlobbing="true">
+              <CmdletParameterMetadata PSName="StartMode"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByDName ByState">
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+                <ValidateSet>
+                  <AllowedValue>Boot</AllowedValue>
+                  <AllowedValue>System</AllowedValue>
+                  <AllowedValue>Auto</AllowedValue>
+                  <AllowedValue>Manual</AllowedValue>
+                  <AllowedValue>Disabled</AllowedValue>
+                </ValidateSet>
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="Started">
+            <Type PSType ="Boolean"/>
+            <RegularQuery > 
+              <CmdletParameterMetadata PSName="Started"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByDName ByState" >
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="DelayedAutoStart">
+            <Type PSType ="Boolean"/>
+            <RegularQuery > 
+              <CmdletParameterMetadata PSName="DelayedAutoStart"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByDName ByState" >
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="AcceptPause">
+            <Type PSType ="Boolean"/>
+            <RegularQuery > 
+              <CmdletParameterMetadata PSName="AcceptPause"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByDName ByState" >
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="AcceptStop">
+            <Type PSType ="Boolean"/>
+            <RegularQuery > 
+              <CmdletParameterMetadata PSName="AcceptStop"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByDName ByState" >
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="DesktopInteract">
+            <Type PSType ="Boolean"/>
+            <RegularQuery > 
+              <CmdletParameterMetadata PSName="DesktopInteract"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByDName ByState" >
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="ServiceType">
+            <Type PSType ="String"/>
+            <RegularQuery AllowGlobbing="true"> 
+              <CmdletParameterMetadata PSName="ServiceType"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByDName ByState" >
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+                <ValidateSet>
+                  <AllowedValue>Own Process</AllowedValue>
+                  <AllowedValue>Share Process</AllowedValue>
+                  <AllowedValue>Interactive Process</AllowedValue>
+                  <AllowedValue>Kernel Driver</AllowedValue>
+                  <AllowedValue>File System Driver</AllowedValue>
+                  <AllowedValue>Adapter</AllowedValue>
+                  <AllowedValue>Recognizer Driver</AllowedValue>
+                </ValidateSet>
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+
+          <Property PropertyName="Status">
+            <Type PSType ="String"/>
+            <RegularQuery AllowGlobbing="true"> 
+              <CmdletParameterMetadata PSName="Status"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByDName ByState" >
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+                <ValidateSet>
+                  <AllowedValue>OK</AllowedValue>
+                  <AllowedValue>Error</AllowedValue>
+                  <AllowedValue>Degraded</AllowedValue>
+                  <AllowedValue>Unknown</AllowedValue>
+                  <AllowedValue>Pred Fail</AllowedValue>
+                  <AllowedValue>Starting</AllowedValue>
+                  <AllowedValue>Stopping</AllowedValue>
+                  <AllowedValue>Service</AllowedValue>                  
+                </ValidateSet>
+              </CmdletParameterMetadata >
+            </RegularQuery>
+          </Property>
+        </QueryableProperties>
+
+        <!--
+           Querying accross associations for dependencies 
+        -->
+        <QueryableAssociations>
+          <Association Association = "Win32_DependentService" ResultRole="Antecedent" SourceRole="Dependent">
+            <AssociatedInstance>
+              <!-- NOTE the direction of the / in ESTYPE. MUST be this way even though documentation shows \ -->
+              <Type PSType="Microsoft.Management.Infrastructure.CimInstance" ETSType="Microsoft.Management.Infrastructure.CimInstance#root/cimv2/Win32_Service" />
+              <CmdletParameterMetadata PSName="DependsOn" CmdletParameterSets="DependsOn" />
+            </AssociatedInstance>
+          </Association>
+          <Association Association = "Win32_DependentService" ResultRole="Dependent" SourceRole="Antecedent">
+            <AssociatedInstance>
+              <!-- NOTE the direction of the / in ESTYPE. MUST be this way even though documentation shows \ -->
+              <Type PSType="Microsoft.Management.Infrastructure.CimInstance" ETSType="Microsoft.Management.Infrastructure.CimInstance#root/cimv2/Win32_Service" />
+              <CmdletParameterMetadata PSName="DependedON" CmdletParameterSets="DependedON" />
+            </AssociatedInstance>
+          </Association>
+        </QueryableAssociations>
+       </GetCmdletParameters>        
+      </GetCmdlet>
+      <!-- 
+         Add cmdlets for methods
+      -->
+      <Cmdlet>
+        <CmdletMetadata Verb="Stop" ConfirmImpact="High" />
+        <Method MethodName="StopService">
+        </Method>
+      </Cmdlet>
+
+      <Cmdlet>
+        <CmdletMetadata Verb="Start" ConfirmImpact="High" />
+        <Method MethodName="StartService">
+        </Method>
+      </Cmdlet>
+
+      <!-- Notice Verb. Conforms to PowerShell approved verbs -->
+      <Cmdlet>
+        <CmdletMetadata Verb="Suspend" ConfirmImpact="High" />
+        <Method MethodName="PauseService">
+        </Method>
+      </Cmdlet>
+
+      <Cmdlet>
+        <CmdletMetadata Verb="Resume" ConfirmImpact="High" />
+        <Method MethodName="ResumeService">
+        </Method>
+      </Cmdlet>
+
+      <!-- Methods with parameters -->
+      <Cmdlet>
+        <CmdletMetadata Verb="Set" Noun="CIMServiceStartMode" ConfirmImpact="High" />
+        <Method MethodName="ChangeStartMode">
+          <Parameters>
+            <Parameter ParameterName="StartMode">
+            <Type PSType ="String"/>
+              <CmdletParameterMetadata PSName="StartMode">
+                <ValidateNotNull />
+                <ValidateNotNullOrEmpty />
+                <ValidateSet>
+                  <AllowedValue>Boot</AllowedValue>
+                  <AllowedValue>System</AllowedValue>
+                  <AllowedValue>Auto</AllowedValue>
+                  <AllowedValue>Manual</AllowedValue>
+                  <AllowedValue>Disabled</AllowedValue>
+                </ValidateSet>
+              </CmdletParameterMetadata >
+            </Parameter>
+          </Parameters>             
+        </Method>
+      </Cmdlet>
+
+    </InstanceCmdlets>
+
+    <!-- 
+      Add code for Whatif & confirm
+    -->
+    <CmdletAdapterPrivateData>
+      <Data Name="ClientSideShouldProcess" />
+    </CmdletAdapterPrivateData>
+
+  </Class>
+</PowerShellMetadata>

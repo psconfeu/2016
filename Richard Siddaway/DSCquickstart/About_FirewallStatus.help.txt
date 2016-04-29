@@ -1,0 +1,17 @@
+TOPIC
+    About_FirewallStatus
+
+SHORT DESCRIPTION
+    A sample DSC resource built with a PowerShell 5.0 class.
+
+LONG DESCRIPTION
+    The DSC resource enables you to toggle the Windows firewall on or off for 
+    each profile - Domain, Private, Public
+ 
+    Even though the class itself has a single setting, PowerShell will add a few 
+    additional settings.
+
+
+SEE ALSO
+    about_classes
+    Get-WindowsErrorReporting

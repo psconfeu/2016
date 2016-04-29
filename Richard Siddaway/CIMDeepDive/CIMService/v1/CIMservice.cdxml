@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PowerShellMetadata xmlns="http://schemas.microsoft.com/cmdlets-over-objects/2009/11">
+  <Class ClassName="root\cimv2/Win32_Service">
+    <Version>1.0</Version>
+    <DefaultNoun>CIMService</DefaultNoun>
+
+    <InstanceCmdlets>
+      <GetCmdletParameters DefaultCmdletParameterSet="ByName">
+        <QueryableProperties>
+
+          <Property PropertyName="State">
+            <Type PSType ="String"/>
+            <RegularQuery AllowGlobbing="true"> 
+              <CmdletParameterMetadata PSName="State"  ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName" />
+            </RegularQuery>
+          </Property>
+               
+        </QueryableProperties>        
+      </GetCmdletParameters>
+    </InstanceCmdlets>
+
+  </Class>
+</PowerShellMetadata>
