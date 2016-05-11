@@ -28,3 +28,4 @@
 | Powershell goes software engineering (german only) | Jan Lindmeier | [Slides](https://github.com/psconfeu/2016/blob/master/Jan-Lindmeier/PowerShell%20goes%20Software%20Engineering_masterslide.pptx) | [Demo Video (Google Photos)](https://photos.google.com/share/AF1QipPQr81vojfH0AWPzOs6YsnxIjXkablZsohhiwarVr47CXy6t1zwZxnwxFg2VCNEkg?key=Yld5UWJfN19LVE5mMk1LSjhaTE5PRFpWck9BQWJB)
 | Azure Automation DSC  | Aleksandar Nikolić & Ben Gelens  | [Slides](https://github.com/psconfeu/2016/raw/master/Ben%20Gelens/AADSC/Azure_Automation_DSC_v3.1.pptx) ||
 | Azure Resource Manager  | Aleksandar Nikolić & Ben Gelens  | [Slides](https://github.com/psconfeu/2016/raw/master/Ben%20Gelens/ARM/ARM_v2.pptx) ||
+| Chef and PowerShell DSC | Niklas Akerlund |[Slides](https://github.com/psconfeu/2016/blob/master/Niklas%20Akerlund/psconfeu_chef_DSC_niak.pdf)||
