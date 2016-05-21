@@ -29,3 +29,4 @@
 | Azure Automation DSC  | Aleksandar Nikolić & Ben Gelens  | [Slides](https://github.com/psconfeu/2016/raw/master/Ben%20Gelens/AADSC/Azure_Automation_DSC_v3.1.pptx) ||
 | Azure Resource Manager  | Aleksandar Nikolić & Ben Gelens  | [Slides](https://github.com/psconfeu/2016/raw/master/Ben%20Gelens/ARM/ARM_v2.pptx) ||
 | Chef and PowerShell DSC | Niklas Akerlund |[Slides](https://github.com/psconfeu/2016/blob/master/Niklas%20Akerlund/psconfeu_chef_DSC_niak.pdf)||
+| PowerShell Lucene | Bruce Payette |[Slides](https://github.com/psconfeu/2016/blob/master/Bruce%20Payette/PowerShell%20Lucene/PowerShellLucene.pptx) | [Lucene.NET .dll and Scripts](https://github.com/psconfeu/2016/blob/master/Bruce%20Payette/PowerShell%20Lucene/Lucene.NET_and_examples.zip)||
