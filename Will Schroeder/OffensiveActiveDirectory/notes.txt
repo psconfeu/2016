@@ -1,0 +1,10 @@
+
+Additional PowerView 2.0 "tips and tricks":
+    https://gist.github.com/HarmJ0y/3328d954607d71362e3c
+
+PowerView Cheat Sheet pdf:
+    https://github.com/HarmJ0y/CheatSheets/blob/master/PowerView.pdf
+
+Troopers16 (3/16/2016) – "I Have the Power(View)"
+    Slides: http://www.slideshare.net/harmj0y/i-have-the-powerview
+    Video: http://www.slideshare.net/harmj0y/i-have-the-powerview
