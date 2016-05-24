@@ -1,0 +1,9 @@
+
+Demo from previous presentation:
+    https://www.youtube.com/watch?v=-L4HOMnRIgk
+
+Empire documentation:
+    www.PowerShellEmpire.com
+
+Empire Cheat Sheet:
+    https://github.com/HarmJ0y/CheatSheets/blob/master/Empire.pdf
